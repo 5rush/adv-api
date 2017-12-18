@@ -1,5 +1,3 @@
-The assignment is to build an API in node. The purpose is to store and retrieve users. You should be able to create, update, read and delete user. The code should also be tested.
-
 # Test
 
 The assignment is to build an API in node. The purpose is to store and retrieve users. You should be able to create, update, read and delete user. The code should also be tested.
