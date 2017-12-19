@@ -27,6 +27,15 @@ suite('API tests', function(){
         });
     });
 
+    test('should be able to retrieve a list of users', function(done){
+        rest.post(base + '/api/user', { data: user }).on('success', function(data){
+            rest.get(base + '/api/users').on('success', function(data){
+                assert.isArray(data);
+                done();
+            });
+        });
+    });
+
     test('should be able to retrieve an user', function(done){
         rest.post(base + '/api/user', { data: user }).on('success', function(data){
             rest.get(base + '/api/user/' + data.id).on('success', function(data){
