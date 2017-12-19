@@ -36,3 +36,23 @@ __PUT */api/user/:id*__
 
 __DELETE */api/user/:id*__
 	Deletes an user. Takes an user ID. The user is not removed from the database, his status is changed into inactive.
+
+# Running the app locally
+Clone the repository by using the following web URL:
+https://github.com/5rush/adv-api.git
+Install dependencies: `npm install`
+Run the app with the following command: `nodejs adv-api.js`
+For easier testing import Postman collection from the following link: https://www.getpostman.com/collections/a0ede19f3434c0e83a7f
+
+# Running tests locally
+All tests are in /qa/test-api.js and they can be run with the command:
+`mocha -u tdd -R spec qa/tests-api.js`
+
+# Testing the live app
+The app is deployed on Heroku and the following link is the app's URL: https://adv-api.herokuapp.com/api/users
+For easier testing of live app import Postman collection from the following link: https://www.getpostman.com/collections/016c829da609551d5f1d
+
+:fire:
+
+
+
