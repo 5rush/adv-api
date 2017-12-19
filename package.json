@@ -1,0 +1,37 @@
+{
+  "name": "adv-api",
+  "version": "1.0.0",
+  "description": "RESTful API for creating, reading, updating and deleting users",
+  "main": "adv-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5rush/adv-api.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "CRUD"
+  ],
+  "author": "Martina Petras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5rush/adv-api/issues"
+  },
+  "homepage": "https://github.com/5rush/adv-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mongoose": "^4.13.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "restler": "^3.4.0",
+    "spec": "^1.0.1"
+  }
+}

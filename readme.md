@@ -34,5 +34,5 @@ __POST */api/user*__
 __PUT */api/user/:id*__
 	Updates an existing user. Takes an user ID, email, first name, last name, nationality, phone number, primary address(delivery address, postal code, city, country) in the request body.
 
-__DEL */api/user/:id*__
+__DELETE */api/user/:id*__
 	Deletes an user. Takes an user ID. The user is not removed from the database, his status is changed into inactive.
